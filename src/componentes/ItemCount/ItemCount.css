@@ -1,0 +1,32 @@
+.contBtns {
+  display: grid;
+  place-content: center;
+}
+
+.contenedorContador p {
+  width: 30px;
+  display: inline;
+  font-size: 20px;
+}
+
+.btn {
+  width: 20px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.btn i {
+  color: black;
+}
+
+.btn_activo {
+  margin-top: 18px;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #6d9bf1;
+  border-radius: 5px;
+}

@@ -1,0 +1,18 @@
+.logo {
+  width: 70px;
+}
+
+td {
+  text-align: center;
+}
+
+.fila {
+  border-bottom: 1px black solid;
+  height: 50px;
+}
+
+.filaNombre {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

@@ -1,0 +1,116 @@
+.titulo {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(38, 106, 170);
+  color: #f6fafb;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.fondo {
+  display: grid;
+  place-content: center;
+  margin-top: 100px;
+}
+.btnVerProductos {
+  background-color: rgb(74, 197, 246);
+  border-style: none;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #020101;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 55px;
+  margin-top: 40px;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.aviso {
+  color: rgb(3, 0, 15);
+  font-weight: 900;
+}
+
+.cantProductos {
+  text-align: center;
+}
+
+.total {
+  font-size: 20px;
+}
+
+.btns {
+  border-style: none;
+  border-radius: 5px;
+  font-size: 15px;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.borrar {
+  background-color: rgba(228, 96, 96, 0.972);
+  color: #f6fafb;
+  padding: 10px 61px;
+  margin-top: 10px;
+}
+.active {
+  background-color: rgb(76, 182, 243);
+  color: #000000;
+  padding: 10px 70px;
+  color: #f6fafb;
+  cursor: pointer;
+}
+
+.contenedorBotones {
+  margin-top: 15px;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+.overflow {
+  height: 300px;
+  width: 50%;
+  overflow-y: scroll;
+}
+
+.cabeceraTabla th {
+  background-color: #f4f4f4;
+  padding: 12px 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.resumen {
+  height: 250px;
+  width: 250px;
+  border-radius: 20px 20px 0 0;
+  background-color: #f4f4f4;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cabeceraResumen {
+  background-color: cornflowerblue;
+  color: #f6fafb;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+}
+
+.detalleResume {
+  display: grid;
+  place-content: center;
+  margin-top: 50px;
+}
+
+.detalleResume .total {
+  text-align: center;
+  font-size: 25px;
+}

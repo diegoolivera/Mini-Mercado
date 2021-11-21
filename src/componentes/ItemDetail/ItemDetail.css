@@ -1,0 +1,39 @@
+.contenedorDetail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.selecDetalle {
+  border: 1px solid black;
+  height: 250px;
+  width: 300px;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+
+.nombre {
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.desc {
+  font-size: 15px;
+  text-align: center;
+}
+.precio {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.selecCant {
+  margin-top: 20px;
+  display: grid;
+  place-items: center;
+}
+
+.logoDetalle {
+  width: 300px;
+}

@@ -1,0 +1,27 @@
+.card {
+  width: 300px;
+  height: 440px;
+  background-color: rgba(255, 255, 255, 0.698);
+  margin: 20px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+.contenedorLogo {
+  display: grid;
+  place-content: center;
+  border-bottom: 1px solid black;
+}
+
+.logoCard {
+  width: 298px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.contenedorDescripcion {
+  font-size: 17px;
+  color: black;
+  display: grid;
+  place-content: center;
+  margin-top: 15px;
+}
