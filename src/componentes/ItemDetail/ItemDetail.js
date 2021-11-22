@@ -5,7 +5,7 @@ import "./ItemDetail.css";
 import { cartContext } from "../context/CartContext";
 
 //componentes
-import ItemCount from "../ItemCount/ItemCount";
+import ItemCount from "./../ItemCount/ItemCount"
 
 const CardExampleCard = ({ d }) => {
   const [cantProductos, setCantProductos] = useState(0);
