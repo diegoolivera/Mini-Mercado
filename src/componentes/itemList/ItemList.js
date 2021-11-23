@@ -24,8 +24,6 @@ const ItemList = () => {
         q = query(collection(db, "Productos"), where("tipo", "==", filtro));
       }
       const querySnapshot = await getDocs(q);
-      console.log(objFiltro);
-      console.log(querySnapshot.docs);
       const prod = querySnapshot.docs.map((doc) => {
         return { ...doc.data(), id: doc.id };
       });
