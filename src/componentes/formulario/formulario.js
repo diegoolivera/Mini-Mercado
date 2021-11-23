@@ -40,9 +40,9 @@ const Formulario = () => {
   };
 
   const validador = () => {
-    let bandera = true;
-    if (inputNombre === "" || inpuTelefono === "" || inpuTelefono === "") {
-      bandera = false;
+    let bandera = false;
+    if (inputNombre !== "" && inpuTelefono !== "" && inpuTelefono !== "") {
+      bandera = true;
     }
     return bandera;
   };
